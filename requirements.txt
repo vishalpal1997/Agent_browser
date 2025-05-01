@@ -1,0 +1,9 @@
+# Required Libraries for the Project
+
+asyncio  # A library to handle asynchronous programming in Python. It allows you to run code concurrently, making it efficient for I/O-bound tasks like web scraping, API calls, or handling multiple tasks at the same time.
+python-dotenv  # Used for loading environment variables from a `.env` file. It helps to store sensitive information (e.g., API keys, database URLs) securely outside of the codebase.
+gradio  # A Python library for building user interfaces for machine learning models. It allows you to create web-based interfaces to easily interact with models, such as uploading files, entering queries, and displaying results.
+langchain-google-genai  # A module for integrating LangChain with Google’s Generative AI tools. It enables you to build language models that can use external APIs, like Google's, for data retrieval or interaction in your agentic AI projects.
+pydantic  # A data validation and settings management library. It is used for validating and parsing input data (e.g., user inputs, API responses) into Python objects, ensuring that data is correct before using it in your application.
+logging  # A standard Python library used for tracking events that happen during program execution. It is useful for debugging, monitoring, and creating logs to understand how the application behaves over time.
+browser-use  # A Python library designed for browser automation. It simplifies interacting with web pages, automating tasks like form submission, scraping data, and clicking buttons, which is useful for web scraping, automating online processes, and building browser-based agents.
